@@ -6,52 +6,49 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="visually-hidden">Cat Energy</h1>
       <div class="container">
         <div class="header__wrapper">
-          <a class="header__logo logo" href="index.html">
-            <img class="logo__image" src="" widht="" height="" alt="logotype">
+          <a class="header__logo" href="index.html">
+            <img class="logo__image" src="https://placehold.it/33x38" widht="33" height="38" alt="logotype">
+            <img class="logo-text__image" src="https://placehold.it/101x18" width="101" height="18" alt="Cat energy">
           </a>
-          <a class="class=header__logo-text logo-text" href="index.html">
-            <img class="logo-text__image" src="" width="" height="" alt="Cat energy">
-          </a>
-          <button class="header__button menu-button menu-button--burger"type="button">
+          <button class="header__button menu-button--burger" type="button">
             Показать меню
           </button>
-          <button class="header__button menu-button menu-button--close"type="button">
+          <button class="header__button menu-button--close" type="button">
             Скрыть меню
           </button>
         </div>
       </div>
-        <nav class="header__navigation navigation">
-          <ul class="navigation__list">
-            <li class="navigation__item">
-              <a class="navigation__link link" href="index.html">ГЛАВНАЯ</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link link" href="catalog.html">КАТАЛОГ ПРОДУКЦИИ</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link link">ПОДБОР ПРОГРАММЫ</a>
-            </li>
-          </ul>
-        </nav>
+      <nav class="header__navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link">Подбор программы</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="program-choice">
       <div class="container">
-        <h2 class="program-choice__title">Подбор программы</h2>
+        <h1 class="program-choice__title">Подбор программы</h1>
         <p class="program-choice__paragraph">Заполните анкету и мы подберем программу питания для вашего кота</p>
-        <form class="program-choice__form form" action="" method="post">
+        <form class="program-choice__form" action="https://echo.htmlacademy.ru" method="post">
           <fieldset class="form__fieldset">
-            <div class="form__field field">
+            <div class="form__field">
               <label class="field__label" for="name">Имя:*</label>
               <input class="field__input" type="text" name="name" id="name" placeholder="Барсик">
             </div>
-            <div class="form__field field">
+            <div class="form__field">
               <label class="field__label" for="weight">Вес (кг):*</label>
               <input class="field__input" type="number" name="weight" id="weight" placeholder="7">
             </div>
-            <div class="form__field field">
+            <div class="form__field">
               <label class="field__label" for="age">Возраст (лет):</label>
               <input class="field__input" type="number" name="age" id="age" placeholder="7">
             </div>
@@ -75,7 +72,7 @@
           </fieldset>
           <fieldset class="form__fieldset">
             <div class="form__legend">
-              <h3 class="title">Контактные данные<br> (владельца кота)</h3>
+              <h3 class="title">Контактные данные<br>(владельца кота)</h3>
             </div>
             <div class="form__wrapper-owner">
               <div class="form__field form__field--owner field field--email">
@@ -114,7 +111,7 @@
                 <span class="field__switch"></span>
                 <span class="field__label">Молоко</span>
               </label>
-              <label class="form__field"">
+              <label class="form__field">
                 <input class="field__control visually-hidden" type="checkbox" name="vitamins">
                 <span class="field__switch"></span>
                 <span class="field__label">Витамины</span>
@@ -126,49 +123,47 @@
             <small class="form__footnote">* — Обязательные поля</small>
           </div>
         </form>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <section class="footer__contacts">
+        <section class="main__contacts">
           <h3 class="visually-hidden">Наш адрес</h3>
           <p class="contacts__invite">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
           <p class="contacts__address">ул. Большая Конюшенная, д.&nbsp;19/8 Санкт-Петербург</p>
         </section>
       </div>
-      <section class="footer__map map">
+      <section class="main__map">
         <h3 class="visually-hidden">Мы на карте</h3>
-        <img class="map__image" src="" width="" height="" alt="Мы здесь">
+        <img class="map__image" src="https://placehold.it/320x240" width="320" height="240" alt="Мы здесь">
       </section>
+    </main>
+    <footer class="footer">
       <div class="container">
-        <div class="footer__bottom-wrapper">
-           <a class="class=footer__logo-text logo-text" href="index.html">
-                <img class="logo-text__image" src="" width="" height="" alt="Cat energy">
-            </a>
+        <div class="footer__wrapper">
+          <a class="footer__logo-text" href="index.html">
+            <img class="logo-text__image" src="https://placehold.it/101x18" width="101" height="18" alt="Cat energy">
+          </a>
           <section class="footer__social social">
             <h3 class="visually-hidden">Ссылки на соцсети</h3>
             <ul class="social__list">
               <li class="social__item">
-                <a class="social__link link" href="#" title="ВКонтакте">
+                <a class="social__link" href="#" title="ВКонтакте">
                   <span class="visually-hidden">ВКонтакте</span>
                 </a>
               </li>
               <li class="social__item">
-                <a class="social__link link" href="#" title="Instagram">
+                <a class="social__link" href="#" title="Instagram">
                   <span class="visually-hidden">Instagram</span>
                 </a>
               </li>
               <li class="social__item">
-                <a class="social__link link" href="#" title="Facebook">
+                <a class="social__link" href="#" title="Facebook">
                   <span class="visually-hidden">Facebook</span>
                 </a>
               </li>
             </ul>
           </section>
-          <section class="footer__developed developed-by">
-            <a class="developed-by__link link" href="https://htmlacademy.ru/intensive/adaptive" title="HTML Academy">
-              <span class="developed-by__text">HTML Academy</span>
-              <img class="developed-by__logo" src="" width="" height="" alt="Логотип HTML Academy">
+          <section class="footer__developed">
+            <a class="developed__link" href="https://htmlacademy.ru/intensive/adaptive" title="HTML Academy">
+              <span class="developed__text">HTML Academy</span>
+              <img class="developed__logo" src="https://placehold.it/27x34" width="27" height="34" alt="Логотип HTML Academy">
             </a>
           </section>
         </div>
