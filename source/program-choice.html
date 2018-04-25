@@ -5,22 +5,20 @@
     <title>Cat energy - Каталог</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__wrapper">
-          <a class="header__logo" href="index.html">
-            <img class="logo__image" src="https://placehold.it/33x38" widht="33" height="38" alt="logotype">
-            <img class="logo-text__image" src="https://placehold.it/101x18" width="101" height="18" alt="Cat energy">
-          </a>
-          <button class="header__button menu-button--burger" type="button">
-            Показать меню
-          </button>
-          <button class="header__button menu-button--close" type="button">
-            Скрыть меню
-          </button>
-        </div>
+    <header class="header container">
+      <div class="header__wrapper">
+        <a class="header__logo logo" href="index.html">
+          <img class="logo__image" src="https://placehold.it/33x38" widht="33" height="38" alt="logotype">
+          <img class="logo-text__image" src="https://placehold.it/101x18" width="101" height="18" alt="Cat energy">
+        </a>
+        <button class="header__button menu-button--burger" type="button">
+          Показать меню
+        </button>
+        <button class="header__button menu-button--close" type="button">
+          Скрыть меню
+        </button>
       </div>
-      <nav class="header__navigation">
+      <nav class="header__navigation navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
             <a class="navigation__link" href="index.html">Главная</a>
@@ -38,83 +36,83 @@
       <div class="container">
         <h1 class="program-choice__title">Подбор программы</h1>
         <p class="program-choice__paragraph">Заполните анкету и мы подберем программу питания для вашего кота</p>
-        <form class="program-choice__form" action="https://echo.htmlacademy.ru" method="post">
+        <form class="program-choice__form form" action="https://echo.htmlacademy.ru" method="post">
           <fieldset class="form__fieldset">
             <div class="form__field">
-              <label class="field__label" for="name">Имя:*</label>
-              <input class="field__input" type="text" name="name" id="name" placeholder="Барсик">
+              <label class="form__label" for="name">Имя:*</label>
+              <input class="form__input" type="text" name="name" id="name" placeholder="Барсик">
             </div>
             <div class="form__field">
-              <label class="field__label" for="weight">Вес (кг):*</label>
-              <input class="field__input" type="number" name="weight" id="weight" placeholder="7">
+              <label class="form__label" for="weight">Вес (кг):*</label>
+              <input class="form__input" type="number" name="weight" id="weight" placeholder="7">
             </div>
             <div class="form__field">
-              <label class="field__label" for="age">Возраст (лет):</label>
-              <input class="field__input" type="number" name="age" id="age" placeholder="7">
+              <label class="form__label" for="age">Возраст (лет):</label>
+              <input class="form__input" type="number" name="age" id="age" placeholder="7">
             </div>
           </fieldset>
           <fieldset class="form__fieldset">
             <label class="form__field">
-              <input class="field__control visually-hidden" type="radio" name="reason" checked>
-              <span class="field__toggle"></span>
-              <span class="field__label">Похудение</span>
+              <input class="form__control" type="radio" name="reason" checked>
+              <span class="form__toggle"></span>
+              <span class="form_label">Похудение</span>
             </label>
             <label class="form__field">
-              <input class="field__control visually-hidden" type="radio" name="reason">
-              <span class="field__toggle"></span>
-              <span class="field__label">Набор массы</span>
+              <input class="form__control" type="radio" name="reason">
+              <span class="form__toggle"></span>
+              <span class="form__label">Набор массы</span>
             </label>
             <label class="form__field">
-              <input class="field__control visually-hidden" type="radio" name="reason">
-              <span class="field__toggle"></span>
-              <span class="field__label">Не знаю (нужен ваш совет)</span>
+              <input class="form__control" type="radio" name="reason">
+              <span class="form__toggle"></span>
+              <span class="form__label">Не знаю (нужен ваш совет)</span>
             </label>
           </fieldset>
           <fieldset class="form__fieldset">
             <div class="form__legend">
-              <h3 class="title">Контактные данные<br>(владельца кота)</h3>
+              <h3 class="form__title">Контактные данные<br>(владельца кота)</h3>
             </div>
             <div class="form__wrapper-owner">
               <div class="form__field form__field--owner field field--email">
-                <label class="field__label" for="email">E-mail:*</label>
-                <input class="field__input" type="email" name="email" id="email" placeholder="kuklachev@gmail.com" required>
+                <label class="form__label" for="email">E-mail:*</label>
+                <input class="form__input" type="email" name="email" id="email" placeholder="kuklachev@gmail.com" required>
               </div>
               <div class="form__field">
-                <label class="field__label" for="phone">Телефон:*</label>
-                <input class="field__input" type="text" name="phone" id="phone" placeholder="8 (960) 900-60-90" required>
+                <label class="form__label" for="phone">Телефон:*</label>
+                <input class="form__input" type="text" name="phone" id="phone" placeholder="8 (960) 900-60-90" required>
               </div>
             </div>
           </fieldset>
           <fieldset class="form__fieldset">
             <div class="form__legend">
-              <h3 class="title">Комментарий</h3>
+              <h3 class="form__title">Комментарий</h3>
             </div>
-            <textarea class="field__input" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+            <textarea class="form__textarea" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
           </fieldset>
           <fieldset class="form__fieldset">
             <div class="form__legend">
-              <h3 class="title">Дополнительно</h3>
+              <h3 class="form__title">Дополнительно</h3>
             </div>
             <div class="form__wrapper-addition">
               <label class="form__field">
-                <input class="field__control visually-hidden" type="checkbox" name="sweetener" checked>
-                <span class="field__switch"></span>
-                <span class="field__label">Сахарозаменитель</span>
+                <input class="form__control" type="checkbox" name="sweetener" checked>
+                <span class="form__switch"></span>
+                <span class="form__label">Сахарозаменитель</span>
               </label>
               <label class="form__field">
-                <input class="field__control visually-hidden" type="checkbox" name="water" disabled>
-                <span class="field__switch"></span>
-                <span class="field__label">Питьевая вода</span>
+                <input class="form__control" type="checkbox" name="water" disabled>
+                <span class="form__switch"></span>
+                <span class="form__label">Питьевая вода</span>
               </label>
               <label class="form__field">
-                <input class="field__control visually-hidden" type="checkbox" name="milk">
-                <span class="field__switch"></span>
-                <span class="field__label">Молоко</span>
+                <input class="form__control" type="checkbox" name="milk">
+                <span class="form__switch"></span>
+                <span class="form__label">Молоко</span>
               </label>
               <label class="form__field">
-                <input class="field__control visually-hidden" type="checkbox" name="vitamins">
-                <span class="field__switch"></span>
-                <span class="field__label">Витамины</span>
+                <input class="form__control" type="checkbox" name="vitamins">
+                <span class="form__switch"></span>
+                <span class="form__label">Витамины</span>
               </label>
             </div>
           </fieldset>
@@ -123,13 +121,13 @@
             <small class="form__footnote">* — Обязательные поля</small>
           </div>
         </form>
-        <section class="main__contacts">
+        <section class="contacts">
           <h3 class="visually-hidden">Наш адрес</h3>
           <p class="contacts__invite">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
           <p class="contacts__address">ул. Большая Конюшенная, д.&nbsp;19/8 Санкт-Петербург</p>
         </section>
       </div>
-      <section class="main__map">
+      <section class="map">
         <h3 class="visually-hidden">Мы на карте</h3>
         <img class="map__image" src="https://placehold.it/320x240" width="320" height="240" alt="Мы здесь">
       </section>
@@ -137,7 +135,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-          <a class="footer__logo-text" href="index.html">
+          <a class="footer__logo-text logo" href="index.html">
             <img class="logo-text__image" src="https://placehold.it/101x18" width="101" height="18" alt="Cat energy">
           </a>
           <section class="footer__social social">
@@ -160,7 +158,7 @@
               </li>
             </ul>
           </section>
-          <section class="footer__developed">
+          <section class="footer__developed developed">
             <a class="developed__link" href="https://htmlacademy.ru/intensive/adaptive" title="HTML Academy">
               <span class="developed__text">HTML Academy</span>
               <img class="developed__logo" src="https://placehold.it/27x34" width="27" height="34" alt="Логотип HTML Academy">
